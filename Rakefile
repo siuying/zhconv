@@ -14,9 +14,9 @@ Echoe.new('zhconverter', '0.1.0') do |p|
 end
 
 Rake::TestTask.new do |t|
+  t.libs.push "lib"
   t.pattern = "test/test_*.rb"
 end
-
 
 Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
 
