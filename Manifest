@@ -1,7 +1,13 @@
 Gemfile
 Gemfile.lock
+Manifest
 README.rdoc
 Rakefile
+data/zh-cn.txt
+data/zh-hans.txt
+data/zh-hant.txt
+data/zh-hk.txt
+data/zh-sg.txt
+data/zh-tw.txt
 lib/zhconv.rb
 test/test_zhconv.rb
-Manifest

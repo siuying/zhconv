@@ -18,6 +18,7 @@ module ZhConv
           @mapping[matches[1].strip] = matches[2].strip
         end
       end
+      #puts "create converter for (#{url}), words: #{@mapping.size}"
     end
     
     def convert(input)
