@@ -4,7 +4,7 @@ require 'bundler/setup'
 require 'rake/testtask'
 require 'echoe'
 
-Echoe.new('zhconv', '0.1.0') do |p|
+Echoe.new('zhconv', '0.1.1') do |p|
   p.description    = "Convert chinese using mediawiki conversion table"
   p.url            = "http://github.com/siuying/zhconv"
   p.author         = "Francis Chong"

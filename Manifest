@@ -1,7 +1,7 @@
 Gemfile
 Gemfile.lock
 Manifest
-README.rdoc
+README.md
 Rakefile
 data/zh-cn.txt
 data/zh-hans.txt
@@ -11,3 +11,4 @@ data/zh-sg.txt
 data/zh-tw.txt
 lib/zhconv.rb
 test/test_zhconv.rb
+zhconv.gemspec
