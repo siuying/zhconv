@@ -31,11 +31,14 @@
 
 ### 使用方法
 
-10. 安裝
+1. 安裝
+
 ```
 gem install zhconv
 ```
-11. 作出轉換
+
+2. 作出轉換
+
 ```
 require 'rubygems'
 require 'zhconv'
