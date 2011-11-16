@@ -1,4 +1,4 @@
-利用 MediaWiki 作中文繁簡互換，支援不同地方中文用字上的分別(大陸、香港、台灣及新加坡)。 
+利用 MediaWiki 作中文繁簡互換，支援地區詞處理 (大陸、香港、台灣及新加坡)
 
 例子：
 
@@ -47,3 +47,8 @@ require 'zhconv'
 ZhConv.convert("zh-tw", "面包") // 返回 "麵包"
 ZhConv.convert("zh-tw", "面包", false) // 返回 "麵包"，不使用最新的 wikipedia 轉換表
 ```
+
+### 參考
+
+* [維基百科:繁簡處理](http://zh.wikipedia.org/wiki/Wikipedia%3a%E7%B9%81%E7%AE%80%E5%A4%84%E7%90%86)
+* [維基百科:地區詞處理](http://zh.wikipedia.org/wiki/Wikipedia:%E5%9C%B0%E5%8C%BA%E8%AF%8D%E5%A4%84%E7%90%86)
