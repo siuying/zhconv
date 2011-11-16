@@ -40,6 +40,7 @@ gem install zhconv
 
 
 2. 作出轉換
+
 ```
 require 'rubygems'
 require 'zhconv'
