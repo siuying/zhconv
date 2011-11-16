@@ -17,7 +17,9 @@
 
 ### 說明
 
-使用了七個轉換表來實現中文繁簡轉換：
+這個程式的概念源自 php 的 [mediawiki-zhconverter](https://github.com/tszming/mediawiki-zhconverter) 和 mediawiki 的 ZhConversion.php，不過實作上沒有任何關系。
+
+它使用了七個轉換表來實現中文繁簡轉換：
 
 1. 在 MediaWiki 內置的轉換表  [ZhConversion.php](http://svn.wikimedia.org/svnroot/mediawiki/trunk/phase3/includes/ZhConversion.php) 
 2. 在 [MediaWiki:Conversiontable/zh-hans](http://zh.wikipedia.org/w/index.php?title=MediaWiki:Conversiontable/zh-hans) 中定義的簡體中文轉換表
@@ -32,13 +34,12 @@
 ### 使用方法
 
 1. 安裝
-
 ```
 gem install zhconv
 ```
 
-2. 作出轉換
 
+2. 作出轉換
 ```
 require 'rubygems'
 require 'zhconv'

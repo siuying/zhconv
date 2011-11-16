@@ -4,6 +4,19 @@ require 'test/unit'
 require "zhconv"
 
 class TestZhConv < Test::Unit::TestCase
+  # add test reference to MediaWiki-ZhConverter 
+  def test_basic
+    assert_equal "麵包",    ZhConv.convert("zh-tw", "面包")
+    assert_equal "老撾",    ZhConv.convert("zh-hk", "寮国")
+    assert_equal "中國人壽",    ZhConv.convert("zh-hk", "中国人寿")
+    assert_equal "朗拿度",    ZhConv.convert("zh-hk", "罗纳尔多")
+    
+    assert_equal "内存",    ZhConv.convert("zh-cn", "記憶體")
+    assert_equal "布什",    ZhConv.convert("zh-cn", "布殊")
+    assert_equal "数据库",    ZhConv.convert("zh-cn", "資料庫")
+    
+  end
+  
   def test_conv_trad    
     assert_equal "歷史",    ZhConv.convert("zh-hant", "历史", false)
     assert_equal "麵包",    ZhConv.convert("zh-hant", "面包", false)
