@@ -1,0 +1,7 @@
+Gemfile
+Gemfile.lock
+README.rdoc
+Rakefile
+lib/zhconv.rb
+test/test_zhconv.rb
+Manifest
